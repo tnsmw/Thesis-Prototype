@@ -13,7 +13,7 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: 12 1fr ;
+  grid-template-columns: 12 1fr;
   grid-template-rows: auto;
   grid-gap:2rem;
   margin: 0 auto;
@@ -21,7 +21,8 @@ main {
 }
 
 .building-1 {
-  grid-template-columns: 5 1fr ;
+  display: grid;
+  grid-template-columns: 5 1fr;
   grid-template-rows: auto;
   margin: 2rem;
 }
