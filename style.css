@@ -12,7 +12,7 @@ body {
 }
 
 main {
-  display:grid;
+  display: grid;
   grid-template-columns: 12 1fr ;
   grid-template-rows: auto;
   grid-gap:2rem;
@@ -21,15 +21,15 @@ main {
 }
 
 .building-1 {
-  background: #1F1D26;
-  grid-column: 3 / 7;
+  grid-template-columns: 5 1fr ;
+  grid-template-rows: auto;
   margin: 2rem;
 }
 
 .square {
   background: #FFF59F;
-  width: 10vw;
-  height: 10vh;
+  width: 10rem;
+  height: 10rem;
   margin: 2rem;
 }
 
