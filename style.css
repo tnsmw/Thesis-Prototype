@@ -1,0 +1,38 @@
+
+/*Building Lights*/
+
+
+html {
+  font-size: 1rem;
+  font-family: 'EB Garamond', serif;
+}
+
+body {
+  color: #070917;
+}
+
+main {
+  display:grid;
+  grid-template-columns: 12 1fr ;
+  grid-template-rows: auto;
+  grid-gap:2rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.building-1 {
+  background: #1F1D26;
+  grid-column: 3 / 7;
+  margin: 2rem;
+}
+
+.square {
+  background: #FFF59F;
+  width: 10vw;
+  height: 10vh;
+  margin: 2rem;
+}
+
+.square-change {
+  background: #1F1D26;
+}
